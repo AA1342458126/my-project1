@@ -1,0 +1,19 @@
+@import url('../../style/index.less');
+@color:aqua;
+.less{
+    .test(@w,@h){
+        width: unit(@w,px);
+        height: unit(@h,px);
+    }
+    .son1{
+        .test(50,50);
+        background-color: @themeColor;
+    }
+    .son2{
+        .test(100,100);
+        background-color: red;
+    }
+    h3{
+        color: aliceblue;
+    }
+}
