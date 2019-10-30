@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 //全局引入样式
-import 'antd/dist/antd.css'
+// import 'antd/dist/antd.css'
 // import App from './App';
 // import App from './demo/less/index';
-import App from './demo/antd';
+// import App from './demo/antd';
+import App from './router.js';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
